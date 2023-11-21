@@ -1,0 +1,117 @@
+0,1--->binary ------------------>acsii/unicode
+
+predefined words=definition   
+
+programs:-set of instructions
+
+								computer lang
+								
+					scripting lang			programming lang
+					
+s.l:-for designing webpages.
+
+html,css,javaScript	....				
+
+p.l:-for developing softwares.
+java,c ,c++,.net,.......
+								programming lang
+								
+						pop							oop
+					basic,cobal,....			java,c++,pyhton,.net,.....
+					
+					
+java:-
+=====
+
+platform independency:-	wora
+
+
+Garbage collector:-
+
+oops:-
+
+performances:-Inheritance,Polymorphism
+
+security:-Encapsulation,Abstraction
+
+java history:-Sun Microsystem---------->Oracle
+
+			green team
+			
+			greentalk(.gt)------->oak------------->java(.java)
+			
+			jdk1.0(1992)-------------------------->jdk21
+			
+			
+	
+	To check the java version:-
+	
+	cmd>java --version
+	
+	
+	
+	jse/j2se:-core java[standalone=no client and server archi]
+	
+	
+	jee/j2ee:-Advanced contents[distributed=client and server archi]
+	
+	
+	jme/j2me:-micro details of core java[mobile]
+	
+	
+	programming lang:-
+	
+	keywords:-
+	
+	
+	variables:-
+	
+	syntax:-
+	
+	datatype varname;		======>declartion
+	
+	datatype varname = 56;	======>initialization	
+	
+									variables
+							local var 			global var
+							
+											static 				instance
+											
+syntax:-
+	
+	static:-	static datatype varname = 56;
+	
+	instance:-	datatype varname = 56;
+	
+	
+Access:-
+
+static:-static porp's/variables can be accessed by the class name
+
+					classname.varname
+
+instance:-instance prop's /variables can be accessed by the object reference
+
+
+	creating an	object:-
+	
+			ClassName objname = new ClassName();
+			
+		
+			objname.varname;
+		
+		
+		
+memory:-
+
+static:-it will gets the memory space only at once when the class loads into jvm
+
+instance:-it will gets the memory space for every object creation;
+		
+		
+		
+		ULTRA AB
+		
+		
+		
+		
