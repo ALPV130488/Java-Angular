@@ -115,3 +115,169 @@ instance:-it will gets the memory space for every object creation;
 		
 		
 		
+class=var+methods
+
+method signature:-
+
+instance :-
+			accessmodifier returntype methodname(params...){
+			
+			//method body
+			}
+			
+			
+	static 	:-						
+	
+	accessmodifier static returntype methodname(params...){
+			
+			//method body
+			}
+			
+			
+	Inheritance:-Acquring parent class prop's to the child class
+	
+	
+		extends 				implements
+		
+		
+		@In java mutiple inheritance is not supported  at class level
+		
+		@In java mutiple inheritance is supported  at interfaces level
+
+
+	class A{
+	add(int a,int b){
+	
+	return a+b;
+	}
+	
+	
+	}
+	class B{
+	add(int a,int b){
+	
+	return a*b;
+	}
+	
+	
+	}
+	class c extends A,B{
+	
+	add(2,3);
+	
+	}
+	
+	
+	Based on the method body:-
+	
+	
+	(1)Abstract method:-If the method is not having any method body 
+	
+		public static void add(int a,int b);--->interfaces
+		
+		public abstract void add(int a,int b);---->abstract class
+	
+		public void display() {----->abstract class
+		
+		}
+	
+	(2)concrete method:-If the method is having body
+	
+		public static void add(int a,int b){
+		//body
+		}
+	
+	
+	class:-only collection of having concrete methods
+	
+	
+	Abstract class :-Collection of both concrete+abstract methods
+	
+	
+	interface:-Only collection of abstract methods
+	
+	
+	Abstraction:-hiding data/logic
+	
+	
+	
+	Polymorphism:-
+	
+	(1)mehthod Overloading:-(Based on the parameters)methods having same name,but difference in the parameters
+	
+							(a)type of parameters
+							(b)No:-of parameters
+							(c)Order of parameters
+	
+	(2)Method Overriding:-(Based method's implementation)Methods having same name,but the met's body is different
+	
+	class Parent{
+	
+	10thcr property(){
+	
+	}
+	
+	marriage(){
+	syso("kajol");
+	
+	}
+	
+	
+	}
+	
+	class child extends Parent{
+	10thcr property(){
+	
+	}
+	
+	@Override
+	marriage(){
+	syso("Deepika");
+	}
+	
+	}
+	
+	* For every java file the default package is java.lang;
+	
+	* For every java file the default parent class is java.lang.Object;
+	
+	
+	
+	access modifiers:-4 a.m's to place before var's,classes,interface's,cont's,met's
+	
+	private 
+	
+	public 
+	
+	default
+	
+	protected
+	
+	constructors:-
+	
+	(1)default constructors:-	a.m classname(){			//default constructors
+								//body
+									}
+	
+	(2)Parametrized constructor:-
+	
+								a.m classname(parameters){
+								
+								}
+	
+	
+	
+	Encapsulation:-Wrapping up of the data into a single entity.
+	
+	
+	Exception Handling uses:-
+
+		(1)To terminate our code in a normal manner
+
+		(2)To throw user friendly error messages
+					
+					
+			
+			
+			
+			
