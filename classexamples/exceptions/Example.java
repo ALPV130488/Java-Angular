@@ -16,9 +16,14 @@ public class Example {
 		
 		int den =scan.nextInt();
 		
+		try {
 		int result = (num/den);
 		
-		System.out.println("The result is :-"+result);
+		System.out.println("The result is :-"+result);}
+		
+		catch(ArithmeticException e) {
+			System.out.println("Don't enter 0 as the denominator!!!");
+		}
 		
 		System.out.println("Remaning 10000 lines of code");
 		
