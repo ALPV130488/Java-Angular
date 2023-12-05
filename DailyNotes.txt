@@ -276,8 +276,50 @@ instance :-
 
 		(2)To throw user friendly error messages
 					
-					
+			
+
+				try    catch throw  throws  finally
+				
+				
+	user defined exception:-
+	
+	
+			(1)Our exception class must be a child class to Exception class
 			
 			
 			
+	Arrays:-
+	
+			syntax to create an array:-
 			
+			
+			(1)int arrname[] = {10,2,3,4,5,6,7};		//initialization of an array
+			
+			(2)int arrname[] = new int[10];				//initialization of an array
+			
+			arrname[3] = 24;
+			
+			(3)int arranme[] = new int[]{10,2,3,4,5,6,7};
+			
+			
+			1.No utility met's/variables.
+			
+			2.Only homogeneous dt's will be accepted.
+			
+			3.fixed in size.
+			
+			
+	Collection:- 
+			
+		framework:-set of predefined classes,interfaces and readymade met's.
+		
+		
+		
+		1.utility met's/variables.
+			
+		2.homogeneous/heterogenous dt's will be accepted.
+			
+		3.It's not fixed in size.
+		
+		
+		package:- java.util.*;
