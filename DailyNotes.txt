@@ -322,4 +322,141 @@ instance :-
 		3.It's not fixed in size.
 		
 		
-		package:- java.util.*;
+		collection are in package:- java.util.*;
+		
+		
+		default package :-java.lang.*;
+		
+		parent class     :-java.lang.Object;
+		
+		File Handling:- It implies how to read from and write into a file using .java files.
+		
+		java.io.*;
+		
+		(1)create file			:-File
+		
+		(2)write into a file	:-FileWriter,BufferedWriter,PrintWriter
+		
+		(3)read from a file		:-FileReader,BufferedWriter.
+		
+		
+		
+		java.util.Date;				---->date & time
+		
+		joda.org(java 8)
+		
+		java.time.LocalDate;		---->date
+		
+		
+		Mutlithreading:-
+		
+		
+		
+		Thread:-performing a single task
+		
+		multi threading:-performing more than one task at a time
+		
+		process based mt:-performing many tasks at a time where each task is independent on 
+							each other.
+		
+		
+		thread based mt:-performing many tasks at a time where each task is dependent on 
+							each other.
+							
+					
+		3 tasks(non-sync)				1 task(synchronised)	
+		
+		
+		Thread	class (extends)===>run()				Runnable interface	(implements)	===>run()[F.I]
+		
+		
+		String:-
+		
+					String 	(immutable)			StringBuffer (mutable)(Sync)			StringBuilder (mutable)(Async)
+					
+			
+			
+	junit:-java unit testing to check a peice of code.
+	
+	
+	Data:-Raw info of any real world entites
+	
+	Database:-Storing data in an organised way for future access,security,
+	
+	
+			apple			2334		
+			
+			grapes			234						
+							
+			banana			347	
+			
+			
+			orange 			877
+			
+			
+	
+	RDBMS:-Table = rows(records)+ columns(fields)
+	
+	Querys:-query is used to perform operations in the db.
+	
+	
+	5 types of Query:-
+	
+	(1)DDL(Data Definition lang):-create,alter,drop,truncate,rename			(Autocommiteed)
+	
+	(2)DML(Data Manipulation lang):-insert,update,delete					(Not Autocommiteed)
+	
+	(3)DRL(Data Retrival lang):-select
+	
+	(4)DCL(Data Control lang):-grant,revoke
+	
+	(5)TCL(Trans'n Control lang):-commit,rollback
+	
+	
+	to create an user account in the db:-
+	
+	cmd>conn /as sysdba									conn to db with system admin
+	
+	cmd>create user username identified by password;	 user account registration
+	
+	cmd>grant connect, resource to username;			requesting permission to use db resources
+	
+	cmd>conn username/password;							login
+	
+	DDL:-
+	Create:-
+	
+	(1)To create a table:-
+	
+	
+	create table emp(eid number(10),ename varchar2(10), esal number(10));
+	
+	(2)to check the table description
+	
+	desc tablename;
+	 
+	 describe tablename;
+	 
+	 alter:-
+	 
+	 alter table employee modify ename number(10);
+	 
+	 
+	 drop :- deletes entire table and its records,fields
+	 
+	 truncate :-deletes table's records
+	 
+	delete :- deletes table's records on a condition as well as all the records also.
+	 
+	 DML:-
+	 
+	 insert:-
+	 
+	 cmd>insert into table_name values(12,'apple',12,'hyd');
+	 
+	 
+	 Defualt table:-DUAL
+	 
+	 
+	 
+	 
