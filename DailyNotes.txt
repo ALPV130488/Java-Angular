@@ -459,4 +459,68 @@ instance :-
 	 
 	 
 	 
+	 jdbc:-java database connectivity
+	 
+	 
+	 1.Loading the driver class.
+	 
+	 2.Create the connection with the database
+	 
+	 3.create the statment
+	 
+	 4.exceute the queries.
+	 
+	 
+	 5.close the connections.
+	 
+	 
+	 limits:-
+	 
+	 (1)we must use the exception classes
+	 
+	 (2)queries
+	 
+	 (3)chaging db is complex
+	 
+	 (4)table should be created on our own
+	 
+	 
+	 jpa:-(specfications)----->ORM Tools(Java Persistence API)
+	 
+	 hibernate,ecllipse link,ibatis.....
+	 
+	 hibernate:-
+	 
+	 * will create the tables for us
+	 
+	 * No queries	===>Query equivalent method's
+	 
+	 * separate file for db properties
+	 
+	 * No Exception classes
+	 
+	 * No boiler plate code
+	 
+	 
+	 
+	 1.Loading the driver class.
+	 
+	 2.Create the connection with the database
+	 
+	 3.create the statment
+	 
+	 4.exceute the queries.
+	 
+	 
+	 5.close the connections. 
+	 
+	 
+	 Class ------>Table
+	 
+	 variables----->columns
+	 
+	Objects	---->Rows
+	 
+	 
+	 
 	 
