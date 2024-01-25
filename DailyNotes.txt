@@ -517,10 +517,77 @@ instance :-
 	 
 	 Class ------>Table
 	 
-	 variables----->columns
+	 variables----->columns		EntityManager
 	 
 	Objects	---->Rows
 	 
 	 
+	 CRUD:-
 	 
+	 insert --->persit()
 	 
+	 select --->find()
+	 
+	 update ---->merge()
+	 
+	 delete --->remove()
+	 
+	 Maven:-It's a build tool.
+	 
+									SPRING
+									======
+	 
+	 SPRING:-Spring is a non-invasive framework which is used to create light weighted and 
+				loosley coupled WEB applications.
+				
+	NON-INVASIVE:-	It will not rushes the programmer to used predefined API.	
+	
+	
+	
+	class A{
+	
+	100 met's;
+	}
+				
+	class B extends A{					====> B is a heavy weighted component after inheritance
+	
+	20 met's + 100 	====>120 met's
+	
+	}		
+	
+	Tightly coupled:-	If the dependencies are very high b/n two classes those  tightly coupled  app's.
+	
+	
+	Loosley coupled:-	If the dependencies are very low b/n two classes those  loosely coupled  app's.
+	
+	
+	spring 1.x
+	
+	spring 6.x
+	
+	
+	spring core; spring boot;spring rest;  spring data jpa;spring security;spring cloud.......
+											
+									1.Spring Core
+									=============
+	Spring Core:-To avoid dependencies b/n the classes.(avoiding objects)===>loosely coupled app
+	
+	**Container :-It's used to create the objects and it initializes the objects
+			(1)Bean Factory			:-lazy  initializer
+			(2)Application Context 	:-Eager intializer
+			
+	
+	Dependency Injection:-Injecting the data into the object/dependency
+	
+			(1)Setter Injection:-<property></property>
+			(2)Constructor:-<constructor-arg></constructor-arg>
+			(3)Autowiring	:-<bean id="" class="" autowire="byName,byType,costructor,default,no">
+								<property></property>
+	
+	Configuration:-
+	
+	(1)xml configuration
+	(2)Annotation Configuration
+			
+			
+	
