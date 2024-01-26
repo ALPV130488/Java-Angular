@@ -570,6 +570,12 @@ instance :-
 											
 									1.Spring Core
 									=============
+	Annotations:-
+				@Component
+				@ComponentScan("packageName")
+				@Configuration
+				@Autowired
+	
 	Spring Core:-To avoid dependencies b/n the classes.(avoiding objects)===>loosely coupled app
 	
 	**Container :-It's used to create the objects and it initializes the objects
@@ -590,4 +596,16 @@ instance :-
 	(2)Annotation Configuration
 			
 			
-	
+									2.SpringBoot:-
+									=============
+									
+		Database ------>hibernate--------->starts spring application							
+									
+		Advantages of springboot:-
+
+		(1)Embedded server:-It will download the automatic server for us
+							default server:-tomcat server  : 8080
+		(2)Starters	:-set of jar files
+		(3)Actuators:-status of our application
+		
+	server:-
