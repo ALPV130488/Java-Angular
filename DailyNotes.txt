@@ -608,4 +608,40 @@ instance :-
 		(2)Starters	:-set of jar files
 		(3)Actuators:-status of our application
 		
-	server:-
+	mvc architecture:-
+	
+				pieces ====>integreated by spring boot
+				
+				controller
+				
+				dao
+				
+				entity(pojo)
+				
+				service
+				
+				
+										Spring REST:-
+										============
+		Def:-It is used to provide restful webservices for our web application
+		
+		
+		webservices:-It will provides the communication b/n two interoperable app's.
+		
+		2 types:-
+		
+		(1)SOAP(Simple Object Access Program):- It will only supports xml format	
+
+		(2)REST(Reprsentational state Transfer):-It will supports xml,json,js,html...........
+				
+		phonepe:-
+		
+		(1)Electric bill(app1)
+		
+		(2)book tickets(app2)
+		
+		(3)food order(app3)
+		
+		(java)	Product Object -------->json object--------->.net object
+					
+					
